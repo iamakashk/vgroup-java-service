@@ -1,0 +1,7 @@
+com.vgroup.assesment
+com.vgroup.assesment.constants
+com.vgroup.assesment.controller
+com.vgroup.assesment.dao
+com.vgroup.assesment.helper
+com.vgroup.assesment.model
+com.vgroup.assesment.service

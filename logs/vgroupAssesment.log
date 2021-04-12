@@ -1,0 +1,231 @@
+2021-04-12 21:11:03,913 INFO com.vgroup.assesment.AssesmentApplication [main] Starting AssesmentApplication on LENOVOZ500 with PID 16804 (C:\Users\AKASH\Desktop\vgroup\angular-spring-basic\angular-spring\target\classes started by AKASH in C:\Users\AKASH\Desktop\vgroup\angular-spring-basic\angular-spring)
+2021-04-12 21:11:03,918 DEBUG com.vgroup.assesment.AssesmentApplication [main] Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2021-04-12 21:11:03,922 INFO com.vgroup.assesment.AssesmentApplication [main] The following profiles are active: dev
+2021-04-12 21:11:10,023 INFO com.vgroup.assesment.AssesmentApplication [main] Started AssesmentApplication in 6.768 seconds (JVM running for 8.041)
+2021-04-12 21:11:35,179 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-3] PROCESSING START FOR :  TestController.validateLogin() 
+2021-04-12 21:11:35,182 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-3] PROCESSING END FOR :  TestController.validateLogin() 
+2021-04-12 21:11:35,186 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-3] EXECUTION TIME FOR :  TestController.validateLogin()  : 0
+2021-04-12 21:13:51,957 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL was not normalized.
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:296)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-04-12 21:14:02,272 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-7] PROCESSING START FOR :  TestController.validateLogin() 
+2021-04-12 21:14:02,276 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-7] PROCESSING END FOR :  TestController.validateLogin() 
+2021-04-12 21:14:02,278 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-7] EXECUTION TIME FOR :  TestController.validateLogin()  : 0
+2021-04-12 21:14:05,402 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-8] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL was not normalized.
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:296)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-04-12 21:14:17,485 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-9] PROCESSING START FOR : AdminController.getAllInputs()
+2021-04-12 21:14:18,092 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-9] PROCESSING START FOR : TestServiceImpl.getAllInputs()
+2021-04-12 21:14:18,137 INFO com.vgroup.assesment.helper.HibernateHelper [http-nio-8080-exec-9]  DB URL : jdbc:mysql://127.0.0.1:3306/vgroup-dev
+2021-04-12 21:14:21,613 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-9] GENERATED RESPONSE BY METHOD :  TestServiceImpl.getAllInputs(): [UserInput [id=1, inputValue=abc], UserInput [id=2, inputValue=ak], UserInput [id=3, inputValue=ac], UserInput [id=4, inputValue=123], UserInput [id=5, inputValue=Hell], UserInput [id=6, inputValue=789], UserInput [id=7, inputValue=123], UserInput [id=8, inputValue=456], UserInput [id=9, inputValue=789], UserInput [id=10, inputValue=aaa], UserInput [id=11, inputValue=bbb], UserInput [id=12, inputValue=Hel], UserInput [id=13, inputValue=Hello], UserInput [id=14, inputValue=bbb], UserInput [id=15, inputValue=Hel]]
+2021-04-12 21:14:21,615 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-9] EXECUTION TIME FOR :  TestServiceImpl.getAllInputs()  : 3479
+2021-04-12 21:14:21,615 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-9] PROCESSING END FOR :  TestServiceImpl.getAllInputs() 
+2021-04-12 21:14:21,618 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-9] GENERATED RESPONSE BY METHOD :  AdminController.getAllInputs(): [UserInput [id=1, inputValue=abc], UserInput [id=2, inputValue=ak], UserInput [id=3, inputValue=ac], UserInput [id=4, inputValue=123], UserInput [id=5, inputValue=Hell], UserInput [id=6, inputValue=789], UserInput [id=7, inputValue=123], UserInput [id=8, inputValue=456], UserInput [id=9, inputValue=789], UserInput [id=10, inputValue=aaa], UserInput [id=11, inputValue=bbb], UserInput [id=12, inputValue=Hel], UserInput [id=13, inputValue=Hello], UserInput [id=14, inputValue=bbb], UserInput [id=15, inputValue=Hel]]
+2021-04-12 21:14:21,618 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-9] PROCESSING END FOR :  AdminController.getAllInputs() 
+2021-04-12 21:14:21,622 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-9] EXECUTION TIME FOR :  AdminController.getAllInputs()  : 3526
+2021-04-12 21:14:59,221 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-10] PROCESSING START FOR :  TestController.validateLogin() 
+2021-04-12 21:14:59,225 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-10] PROCESSING END FOR :  TestController.validateLogin() 
+2021-04-12 21:14:59,225 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-10] EXECUTION TIME FOR :  TestController.validateLogin()  : 0
+2021-04-12 21:15:05,990 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-1] PROCESSING START FOR :  TestController.validateLogin() 
+2021-04-12 21:15:05,996 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-1] PROCESSING END FOR :  TestController.validateLogin() 
+2021-04-12 21:15:06,008 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-1] EXECUTION TIME FOR :  TestController.validateLogin()  : 0
+2021-04-12 21:15:08,701 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-2] PROCESSING START FOR : AdminController.getAllInputs()
+2021-04-12 21:15:08,704 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-2] PROCESSING START FOR : TestServiceImpl.getAllInputs()
+2021-04-12 21:15:08,705 INFO com.vgroup.assesment.helper.HibernateHelper [http-nio-8080-exec-2]  DB URL : jdbc:mysql://127.0.0.1:3306/vgroup-dev
+2021-04-12 21:15:08,712 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-2] GENERATED RESPONSE BY METHOD :  TestServiceImpl.getAllInputs(): [UserInput [id=1, inputValue=abc], UserInput [id=2, inputValue=ak], UserInput [id=3, inputValue=ac], UserInput [id=4, inputValue=123], UserInput [id=5, inputValue=Hell], UserInput [id=6, inputValue=789], UserInput [id=7, inputValue=123], UserInput [id=8, inputValue=456], UserInput [id=9, inputValue=789], UserInput [id=10, inputValue=aaa], UserInput [id=11, inputValue=bbb], UserInput [id=12, inputValue=Hel], UserInput [id=13, inputValue=Hello], UserInput [id=14, inputValue=bbb], UserInput [id=15, inputValue=Hel]]
+2021-04-12 21:15:08,713 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-2] EXECUTION TIME FOR :  TestServiceImpl.getAllInputs()  : 8
+2021-04-12 21:15:08,716 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-2] PROCESSING END FOR :  TestServiceImpl.getAllInputs() 
+2021-04-12 21:15:08,716 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-2] GENERATED RESPONSE BY METHOD :  AdminController.getAllInputs(): [UserInput [id=1, inputValue=abc], UserInput [id=2, inputValue=ak], UserInput [id=3, inputValue=ac], UserInput [id=4, inputValue=123], UserInput [id=5, inputValue=Hell], UserInput [id=6, inputValue=789], UserInput [id=7, inputValue=123], UserInput [id=8, inputValue=456], UserInput [id=9, inputValue=789], UserInput [id=10, inputValue=aaa], UserInput [id=11, inputValue=bbb], UserInput [id=12, inputValue=Hel], UserInput [id=13, inputValue=Hello], UserInput [id=14, inputValue=bbb], UserInput [id=15, inputValue=Hel]]
+2021-04-12 21:15:08,716 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-2] PROCESSING END FOR :  AdminController.getAllInputs() 
+2021-04-12 21:15:08,716 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-2] EXECUTION TIME FOR :  AdminController.getAllInputs()  : 12
+2021-04-12 21:15:42,095 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL was not normalized.
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:296)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-04-12 21:16:06,769 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-6] PROCESSING START FOR :  TestController.createPermutations() 
+2021-04-12 21:16:06,778 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-6] PROCESSING START FOR : TestServiceImpl.createPermutations()
+2021-04-12 21:16:06,781 INFO com.vgroup.assesment.dao.TestDaoImpl [http-nio-8080-exec-6] PROCESSING START FOR : TestDaoImpl.saveCombinations()
+2021-04-12 21:16:06,785 INFO com.vgroup.assesment.helper.HibernateHelper [http-nio-8080-exec-6]  DB URL : jdbc:mysql://127.0.0.1:3306/vgroup-dev
+2021-04-12 21:16:06,865 INFO com.vgroup.assesment.dao.TestDaoImpl [http-nio-8080-exec-6] GENERATED RESPONSE BY METHOD :  TestDaoImpl.saveCombinations():  hasCreated: true
+2021-04-12 21:16:06,865 INFO com.vgroup.assesment.dao.TestDaoImpl [http-nio-8080-exec-6] EXECUTION TIME FOR :  TestDaoImpl.saveCombinations()  : 81
+2021-04-12 21:16:06,865 INFO com.vgroup.assesment.dao.TestDaoImpl [http-nio-8080-exec-6] PROCESSING END FOR :  TestDaoImpl.saveCombinations() 
+2021-04-12 21:16:06,871 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-6] GENERATED RESPONSE BY METHOD :  TestServiceImpl.createPermutations():  hasPermutationCreated: true
+2021-04-12 21:16:06,872 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-6] EXECUTION TIME FOR :  TestServiceImpl.createPermutations()  : 92
+2021-04-12 21:16:06,872 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-6] PROCESSING END FOR :  TestServiceImpl.createPermutations() 
+2021-04-12 21:16:06,872 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-6] GENERATED RESPONSE BY METHOD :  TestController.createPermutations() :isCreated: true
+2021-04-12 21:16:06,876 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-6] PROCESSING END FOR :  TestController.createPermutations() 
+2021-04-12 21:16:06,876 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-6] EXECUTION TIME FOR :  TestController.createPermutations()  : 100
+2021-04-12 21:16:08,017 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-7] PROCESSING START FOR : AdminController.getAllInputs()
+2021-04-12 21:16:08,021 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-7] PROCESSING START FOR : TestServiceImpl.getAllInputs()
+2021-04-12 21:16:08,048 INFO com.vgroup.assesment.helper.HibernateHelper [http-nio-8080-exec-7]  DB URL : jdbc:mysql://127.0.0.1:3306/vgroup-dev
+2021-04-12 21:16:08,058 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-7] GENERATED RESPONSE BY METHOD :  TestServiceImpl.getAllInputs(): [UserInput [id=1, inputValue=abc], UserInput [id=2, inputValue=ak], UserInput [id=3, inputValue=ac], UserInput [id=4, inputValue=123], UserInput [id=5, inputValue=Hell], UserInput [id=6, inputValue=789], UserInput [id=7, inputValue=123], UserInput [id=8, inputValue=456], UserInput [id=9, inputValue=789], UserInput [id=10, inputValue=aaa], UserInput [id=11, inputValue=bbb], UserInput [id=12, inputValue=Hel], UserInput [id=13, inputValue=Hello], UserInput [id=14, inputValue=bbb], UserInput [id=15, inputValue=Hel], UserInput [id=16, inputValue=qaz], UserInput [id=17, inputValue=edc], UserInput [id=18, inputValue=rt]]
+2021-04-12 21:16:08,058 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-7] EXECUTION TIME FOR :  TestServiceImpl.getAllInputs()  : 18
+2021-04-12 21:16:08,058 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-7] PROCESSING END FOR :  TestServiceImpl.getAllInputs() 
+2021-04-12 21:16:08,062 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-7] GENERATED RESPONSE BY METHOD :  AdminController.getAllInputs(): [UserInput [id=1, inputValue=abc], UserInput [id=2, inputValue=ak], UserInput [id=3, inputValue=ac], UserInput [id=4, inputValue=123], UserInput [id=5, inputValue=Hell], UserInput [id=6, inputValue=789], UserInput [id=7, inputValue=123], UserInput [id=8, inputValue=456], UserInput [id=9, inputValue=789], UserInput [id=10, inputValue=aaa], UserInput [id=11, inputValue=bbb], UserInput [id=12, inputValue=Hel], UserInput [id=13, inputValue=Hello], UserInput [id=14, inputValue=bbb], UserInput [id=15, inputValue=Hel], UserInput [id=16, inputValue=qaz], UserInput [id=17, inputValue=edc], UserInput [id=18, inputValue=rt]]
+2021-04-12 21:16:08,062 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-7] PROCESSING END FOR :  AdminController.getAllInputs() 
+2021-04-12 21:16:08,062 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-7] EXECUTION TIME FOR :  AdminController.getAllInputs()  : 41
+2021-04-12 21:16:20,915 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-8] PROCESSING START FOR : AdminController.getAllInputs()
+2021-04-12 21:16:20,918 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-8] PROCESSING START FOR : TestServiceImpl.getAllInputs()
+2021-04-12 21:16:20,918 INFO com.vgroup.assesment.helper.HibernateHelper [http-nio-8080-exec-8]  DB URL : jdbc:mysql://127.0.0.1:3306/vgroup-dev
+2021-04-12 21:16:20,924 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-8] GENERATED RESPONSE BY METHOD :  TestServiceImpl.getAllInputs(): [UserInput [id=1, inputValue=abc], UserInput [id=2, inputValue=ak], UserInput [id=3, inputValue=ac], UserInput [id=4, inputValue=123], UserInput [id=5, inputValue=Hell], UserInput [id=6, inputValue=789], UserInput [id=7, inputValue=123], UserInput [id=8, inputValue=456], UserInput [id=9, inputValue=789], UserInput [id=10, inputValue=aaa], UserInput [id=11, inputValue=bbb], UserInput [id=12, inputValue=Hel], UserInput [id=13, inputValue=Hello], UserInput [id=14, inputValue=bbb], UserInput [id=15, inputValue=Hel], UserInput [id=16, inputValue=qaz], UserInput [id=17, inputValue=edc], UserInput [id=18, inputValue=rt]]
+2021-04-12 21:16:20,924 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-8] EXECUTION TIME FOR :  TestServiceImpl.getAllInputs()  : 6
+2021-04-12 21:16:20,934 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-8] PROCESSING END FOR :  TestServiceImpl.getAllInputs() 
+2021-04-12 21:16:20,934 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-8] GENERATED RESPONSE BY METHOD :  AdminController.getAllInputs(): [UserInput [id=1, inputValue=abc], UserInput [id=2, inputValue=ak], UserInput [id=3, inputValue=ac], UserInput [id=4, inputValue=123], UserInput [id=5, inputValue=Hell], UserInput [id=6, inputValue=789], UserInput [id=7, inputValue=123], UserInput [id=8, inputValue=456], UserInput [id=9, inputValue=789], UserInput [id=10, inputValue=aaa], UserInput [id=11, inputValue=bbb], UserInput [id=12, inputValue=Hel], UserInput [id=13, inputValue=Hello], UserInput [id=14, inputValue=bbb], UserInput [id=15, inputValue=Hel], UserInput [id=16, inputValue=qaz], UserInput [id=17, inputValue=edc], UserInput [id=18, inputValue=rt]]
+2021-04-12 21:16:20,934 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-8] PROCESSING END FOR :  AdminController.getAllInputs() 
+2021-04-12 21:16:20,934 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-8] EXECUTION TIME FOR :  AdminController.getAllInputs()  : 16
+2021-04-12 21:16:27,686 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-5] PROCESSING START FOR :  TestController.validateLogin() 
+2021-04-12 21:16:27,689 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-5] PROCESSING END FOR :  TestController.validateLogin() 
+2021-04-12 21:16:27,691 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-5] EXECUTION TIME FOR :  TestController.validateLogin()  : 0
+2021-04-12 21:22:40,352 INFO com.vgroup.assesment.AssesmentApplication [main] Starting AssesmentApplication on LENOVOZ500 with PID 23208 (C:\Users\AKASH\Desktop\vgroup\angular-spring-basic\angular-spring\target\classes started by AKASH in C:\Users\AKASH\Desktop\vgroup\angular-spring-basic\angular-spring)
+2021-04-12 21:22:40,359 DEBUG com.vgroup.assesment.AssesmentApplication [main] Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2021-04-12 21:22:40,362 INFO com.vgroup.assesment.AssesmentApplication [main] The following profiles are active: dev
+2021-04-12 21:22:45,649 INFO com.vgroup.assesment.AssesmentApplication [main] Started AssesmentApplication in 5.989 seconds (JVM running for 6.97)
+2021-04-12 21:23:22,690 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-1] PROCESSING START FOR :  TestController.validateLogin() 
+2021-04-12 21:23:22,693 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-1] PROCESSING END FOR :  TestController.validateLogin() 
+2021-04-12 21:23:22,696 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-1] EXECUTION TIME FOR :  TestController.validateLogin()  : 0
+2021-04-12 21:23:33,698 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-3] PROCESSING START FOR :  TestController.validateLogin() 
+2021-04-12 21:23:33,701 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-3] PROCESSING END FOR :  TestController.validateLogin() 
+2021-04-12 21:23:33,701 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-3] EXECUTION TIME FOR :  TestController.validateLogin()  : 0
+2021-04-12 21:23:36,538 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-4] PROCESSING START FOR : AdminController.getAllInputs()
+2021-04-12 21:23:36,541 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-4] PROCESSING START FOR : TestServiceImpl.getAllInputs()
+2021-04-12 21:23:36,544 INFO com.vgroup.assesment.dao.TestDaoImpl [http-nio-8080-exec-4] PROCESSING START FOR : TestDaoImpl.getAllInputs()
+2021-04-12 21:23:36,546 INFO com.vgroup.assesment.helper.HibernateHelper [http-nio-8080-exec-4]  DB URL : jdbc:mysql://127.0.0.1:3306/vgroup-dev
+2021-04-12 21:23:39,061 INFO com.vgroup.assesment.helper.HibernateHelper [http-nio-8080-exec-4]  CONNECTION CREATED SUCCESSFULLY
+2021-04-12 21:23:39,370 INFO com.vgroup.assesment.dao.TestDaoImpl [http-nio-8080-exec-4] GENERATED RESPONSE BY METHOD :  TestDaoImpl.getAllInputs(): [UserInput [id=1, inputValue=abc], UserInput [id=2, inputValue=ak], UserInput [id=3, inputValue=ac], UserInput [id=4, inputValue=123], UserInput [id=5, inputValue=Hell], UserInput [id=6, inputValue=789], UserInput [id=7, inputValue=123], UserInput [id=8, inputValue=456], UserInput [id=9, inputValue=789], UserInput [id=10, inputValue=aaa], UserInput [id=11, inputValue=bbb], UserInput [id=12, inputValue=Hel], UserInput [id=13, inputValue=Hello], UserInput [id=14, inputValue=bbb], UserInput [id=15, inputValue=Hel], UserInput [id=16, inputValue=qaz], UserInput [id=17, inputValue=edc], UserInput [id=18, inputValue=rt]]
+2021-04-12 21:23:39,375 INFO com.vgroup.assesment.dao.TestDaoImpl [http-nio-8080-exec-4] EXECUTION TIME FOR :  TestDaoImpl.getAllInputs()  : 2826
+2021-04-12 21:23:39,379 INFO com.vgroup.assesment.dao.TestDaoImpl [http-nio-8080-exec-4] PROCESSING END FOR :  TestDaoImpl.getAllInputs() 
+2021-04-12 21:23:39,383 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-4] GENERATED RESPONSE BY METHOD :  TestServiceImpl.getAllInputs(): [UserInput [id=1, inputValue=abc], UserInput [id=2, inputValue=ak], UserInput [id=3, inputValue=ac], UserInput [id=4, inputValue=123], UserInput [id=5, inputValue=Hell], UserInput [id=6, inputValue=789], UserInput [id=7, inputValue=123], UserInput [id=8, inputValue=456], UserInput [id=9, inputValue=789], UserInput [id=10, inputValue=aaa], UserInput [id=11, inputValue=bbb], UserInput [id=12, inputValue=Hel], UserInput [id=13, inputValue=Hello], UserInput [id=14, inputValue=bbb], UserInput [id=15, inputValue=Hel], UserInput [id=16, inputValue=qaz], UserInput [id=17, inputValue=edc], UserInput [id=18, inputValue=rt]]
+2021-04-12 21:23:39,383 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-4] EXECUTION TIME FOR :  TestServiceImpl.getAllInputs()  : 2838
+2021-04-12 21:23:39,394 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-4] PROCESSING END FOR :  TestServiceImpl.getAllInputs() 
+2021-04-12 21:23:39,395 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-4] GENERATED RESPONSE BY METHOD :  AdminController.getAllInputs(): [UserInput [id=1, inputValue=abc], UserInput [id=2, inputValue=ak], UserInput [id=3, inputValue=ac], UserInput [id=4, inputValue=123], UserInput [id=5, inputValue=Hell], UserInput [id=6, inputValue=789], UserInput [id=7, inputValue=123], UserInput [id=8, inputValue=456], UserInput [id=9, inputValue=789], UserInput [id=10, inputValue=aaa], UserInput [id=11, inputValue=bbb], UserInput [id=12, inputValue=Hel], UserInput [id=13, inputValue=Hello], UserInput [id=14, inputValue=bbb], UserInput [id=15, inputValue=Hel], UserInput [id=16, inputValue=qaz], UserInput [id=17, inputValue=edc], UserInput [id=18, inputValue=rt]]
+2021-04-12 21:23:39,395 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-4] PROCESSING END FOR :  AdminController.getAllInputs() 
+2021-04-12 21:23:39,395 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-4] EXECUTION TIME FOR :  AdminController.getAllInputs()  : 2854
+2021-04-12 21:56:11,525 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-7] PROCESSING START FOR :  TestController.validateLogin() 
+2021-04-12 21:56:11,530 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-7] PROCESSING END FOR :  TestController.validateLogin() 
+2021-04-12 21:56:11,530 INFO com.vgroup.assesment.controller.TestController [http-nio-8080-exec-7] EXECUTION TIME FOR :  TestController.validateLogin()  : 0
+2021-04-12 21:56:14,955 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-9] PROCESSING START FOR : AdminController.getAllInputs()
+2021-04-12 21:56:14,959 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-9] PROCESSING START FOR : TestServiceImpl.getAllInputs()
+2021-04-12 21:56:14,959 INFO com.vgroup.assesment.dao.TestDaoImpl [http-nio-8080-exec-9] PROCESSING START FOR : TestDaoImpl.getAllInputs()
+2021-04-12 21:56:14,959 INFO com.vgroup.assesment.helper.HibernateHelper [http-nio-8080-exec-9]  DB URL : jdbc:mysql://127.0.0.1:3306/vgroup-dev
+2021-04-12 21:56:15,011 INFO com.vgroup.assesment.dao.TestDaoImpl [http-nio-8080-exec-9] GENERATED RESPONSE BY METHOD :  TestDaoImpl.getAllInputs(): [UserInput [id=1, inputValue=abc], UserInput [id=2, inputValue=ak], UserInput [id=3, inputValue=ac], UserInput [id=4, inputValue=123], UserInput [id=5, inputValue=Hell], UserInput [id=6, inputValue=789], UserInput [id=7, inputValue=123], UserInput [id=8, inputValue=456], UserInput [id=9, inputValue=789], UserInput [id=10, inputValue=aaa], UserInput [id=11, inputValue=bbb], UserInput [id=12, inputValue=Hel], UserInput [id=13, inputValue=Hello], UserInput [id=14, inputValue=bbb], UserInput [id=15, inputValue=Hel], UserInput [id=16, inputValue=qaz], UserInput [id=17, inputValue=edc], UserInput [id=18, inputValue=rt]]
+2021-04-12 21:56:15,017 INFO com.vgroup.assesment.dao.TestDaoImpl [http-nio-8080-exec-9] EXECUTION TIME FOR :  TestDaoImpl.getAllInputs()  : 52
+2021-04-12 21:56:15,017 INFO com.vgroup.assesment.dao.TestDaoImpl [http-nio-8080-exec-9] PROCESSING END FOR :  TestDaoImpl.getAllInputs() 
+2021-04-12 21:56:15,017 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-9] GENERATED RESPONSE BY METHOD :  TestServiceImpl.getAllInputs(): [UserInput [id=1, inputValue=abc], UserInput [id=2, inputValue=ak], UserInput [id=3, inputValue=ac], UserInput [id=4, inputValue=123], UserInput [id=5, inputValue=Hell], UserInput [id=6, inputValue=789], UserInput [id=7, inputValue=123], UserInput [id=8, inputValue=456], UserInput [id=9, inputValue=789], UserInput [id=10, inputValue=aaa], UserInput [id=11, inputValue=bbb], UserInput [id=12, inputValue=Hel], UserInput [id=13, inputValue=Hello], UserInput [id=14, inputValue=bbb], UserInput [id=15, inputValue=Hel], UserInput [id=16, inputValue=qaz], UserInput [id=17, inputValue=edc], UserInput [id=18, inputValue=rt]]
+2021-04-12 21:56:15,017 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-9] EXECUTION TIME FOR :  TestServiceImpl.getAllInputs()  : 58
+2021-04-12 21:56:15,018 INFO com.vgroup.assesment.service.TestServiceImpl [http-nio-8080-exec-9] PROCESSING END FOR :  TestServiceImpl.getAllInputs() 
+2021-04-12 21:56:15,018 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-9] GENERATED RESPONSE BY METHOD :  AdminController.getAllInputs(): [UserInput [id=1, inputValue=abc], UserInput [id=2, inputValue=ak], UserInput [id=3, inputValue=ac], UserInput [id=4, inputValue=123], UserInput [id=5, inputValue=Hell], UserInput [id=6, inputValue=789], UserInput [id=7, inputValue=123], UserInput [id=8, inputValue=456], UserInput [id=9, inputValue=789], UserInput [id=10, inputValue=aaa], UserInput [id=11, inputValue=bbb], UserInput [id=12, inputValue=Hel], UserInput [id=13, inputValue=Hello], UserInput [id=14, inputValue=bbb], UserInput [id=15, inputValue=Hel], UserInput [id=16, inputValue=qaz], UserInput [id=17, inputValue=edc], UserInput [id=18, inputValue=rt]]
+2021-04-12 21:56:15,018 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-9] PROCESSING END FOR :  AdminController.getAllInputs() 
+2021-04-12 21:56:15,018 INFO com.vgroup.assesment.controller.AdminController [http-nio-8080-exec-9] EXECUTION TIME FOR :  AdminController.getAllInputs()  : 59
